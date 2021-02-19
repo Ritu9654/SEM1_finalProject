@@ -1,0 +1,138 @@
+header{
+    height:auto;
+  background-color: rgb(199, 97, 97);
+    padding: 3px;
+    text-align:center;
+    size: relative;
+    border-style:groove;
+border-color: tan;
+}
+
+.topnav {
+    background-color: rgb(192, 162, 162);
+    overflow: hidden;
+    border-style:groove;
+border-color: tan;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;                                   /*floats the content of navbar to the right*/
+    color: #420a21;
+    text-align: center;
+    padding: 14px 16px;                             /*14px from top and bottom and 16px fom left and right*/
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(199, 216, 221);         /*x-offset|y-offset|blur-radius*/    
+    color: rgb(46, 44, 155);
+  }
+                                         
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: rgb(31, 25, 25);
+  }
+
+  body{
+      background-color: dimgray;
+      font-family: mosterrat;
+      font-weight: bolder;
+      font-size:200%;
+  }
+
+#p3{
+    font-size: 200%;
+    color:peachpuff;
+    text-shadow: 2px 2px crimson;
+}
+
+#p1{
+    font-size: x-large;
+color:cyan;
+font-size: 100%;
+}
+
+#p2{
+    font-size: x-large;
+color:navajowhite;
+}
+
+  #div1{
+    position: relative;
+text-align: center;
+padding: 3%;
+background-color:black;
+border-style: solid;
+border-color: tan;
+  }
+
+#div2{
+  position: relative;
+    text-align:center;
+padding: 3%;
+background: linear-gradient(to right,rgb(41, 6, 16),rgb(112, 20, 63),rgb(209, 42, 159));
+font-size: 80%;
+color:black;
+font-weight: bolder;
+border-style:groove;
+border-color: tan;
+}
+
+#div3{
+  position: relative;
+  text-align:center;
+padding: 3%;
+background: linear-gradient(to right,rgb(230, 42, 95),rgb(180, 25, 97),rgb(68, 2, 48));
+font-size: 80%;
+border-style:groove;
+border-color: tan;
+}
+
+#div4{
+  position: relative;
+  text-align:center;
+padding: 3%;
+background: linear-gradient(to right,rgb(2, 12, 5),rgb(16, 122, 69),rgb(16, 224, 86));
+font-size: 80%;
+border-style:groove;
+border-color: tan;
+}
+
+#div5{
+  position: relative;
+  text-align:center;
+padding: 3%;
+background: linear-gradient(to right,rgb(240, 114, 30),rgb(173, 91, 14),rgb(114, 58, 5));
+font-size: 80%;
+border-style:groove;
+border-color: tan;
+}
+
+#fid{
+font-weight: bolder;
+font-size: x-large;
+text-align: center;
+height:auto;
+  background-color: rgb(199, 97, 97);
+    padding: 3px;
+}
+
+  .zoom {
+    padding: 50px;
+    transition: transform .2s;          /* Animation */
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);             /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+#im1{
+  border-radius: 10%;
+}
