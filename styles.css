@@ -1,0 +1,98 @@
+header {
+  background-color:indianred;
+  padding: 3px;
+  text-align: center;
+  height: auto;       /* the element will automatically adjust its height to allow its content to be displayed correctly.*/
+}
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  background-repeat: no-repeat;
+  background-size:cover;    /*Resize the background image to cover the entire container*/
+  }
+
+  h1 {
+    text-align: center; 
+    font-size: 400%;
+    color:white;
+    text-shadow: 2px 2px 15px blue; /*x-offset|y-offset|blur-radius*/    
+   
+  }
+  .center {
+    display: block;       /*taking the whole width*/
+    margin-left: auto;      /*when margin-left and margin-right is auto then it will center the element, if a fixed width is defined.*/
+    margin-right: auto;
+  }
+
+  img {
+    box-shadow: 2px 2px 15px darkblue;
+  }
+
+  h3{
+    text-align:left; 
+    border-bottom: 2px solid black;       /*This property sets the style of an element's bottom border.*/
+    line-height:2em;                          /*this property specifies the height of a line and  em means relative to the element's current font size*/
+    text-shadow: 2px 2px deepskyblue; 
+    color:navy;
+    font-size: 200%;
+  } 
+ 
+  p {
+    font-size: 150%;
+    color:darkred;
+    font-size: x-large;
+  }
+
+  footer {
+    background-color:indianred;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    height: auto;
+  }
+
+  ul{
+    font-size: 150%;
+    color:rgb(3, 41, 16);       /*color combination of red,blue and green*/
+  }
+
+  .start{
+    text-shadow: 2px 2px blue;
+      color:crimson; 
+      text-align: center;
+      font-size: 200%;
+  }
+
+  .start2{
+    text-align: center;
+    color:indigo; 
+    font-size: 150%;
+  }
+  
+  .topnav {
+    background-color: rgb(192, 162, 162);
+    overflow: hidden;
+    border-style:groove;
+border-color: tan;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;                                   /*floats the content of navbar to the right*/
+    color: #420a21;
+    text-align: center;
+    padding: 14px 16px;                             /*14px from top and bottom and 16px fom left and right*/
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(199, 216, 221);         /*x-offset|y-offset|blur-radius*/    
+    color: rgb(46, 44, 155);
+  }
+                                         
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: rgb(31, 25, 25);
+  }

@@ -76,6 +76,7 @@ padding: 3%;
 background-color:black;
 border-style: solid;
 border-color: tan;
+overflow: auto;
   }
 
 #div2{
